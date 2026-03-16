@@ -1,0 +1,17 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+
+# Session data
+sessions/
+
+# Environment variables
+.env
+
+# --- IMPORTANT: Secret files ---
+conf/secrets.ts
+/logs/
+*audit.json

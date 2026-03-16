@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                     /* Modern JavaScript version */
+    "module": "commonjs",                  /* Node.js module system */
+    "rootDir": "./",                       /* Look for .ts files in the root */
+    "outDir": "./dist",                    /* Output compiled .js files here */
+    "strict": true,                        /* Enable all strict type-checking */
+    "esModuleInterop": true,               /* For better compatibility with libraries */
+    "skipLibCheck": true,                  /* Skip checking types in node_modules */
+    "forceConsistentCasingInFileNames": true /* Avoid case-related bugs */
+  },
+  "include": ["src/**/*.ts", "index.ts"], /* Files to include in compilation */
+  "exclude": ["node_modules"]              /* Folders to exclude */
+}

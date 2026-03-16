@@ -1,0 +1,34 @@
+{
+  "name": "parrot-post",
+  "version": "1.0.0",
+  "description": "Automated content uploader for Daum and Naver",
+  "main": "dist/index.js",
+  "scripts": {
+    "postinstall": "puppeteer browsers install chrome",
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "ktime": "ts-node index.ts KTIME",
+    "house": "ts-node index.ts HOUSE",
+    "mid_living": "ts-node index.ts MID_LIVING",
+    "mid_3": "ts-node index.ts MID_THIRD",
+    "saint1": "ts-node index.ts SAINT1",
+    "saint2": "ts-node index.ts SAINT2",
+    "whitfield": "ts-node index.ts WHITFIELD",
+    "open_real": "ts-node index.ts OPEN_REAL",
+    "open_life": "ts-node index.ts OPEN_LIFE",
+    "exchange": "ts-node index.ts EXCHANGE",
+    "all": "ts-node index.ts"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "puppeteer": "^22.6.0",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/node-cron": "^3.0.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
